@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "@assets/logo.png";
 // import kakao from "@assets/kakao_logo.png";
 import google from "@assets/google_logo.png";
-import KakaoLoginButton from "../components/Buttons/KakaoLoginButton"; // KakaoLoginButton 컴포넌트 임포트
+import KakaoLoginButton from "shared/components/Buttons/KakaoLoginButton"; // KakaoLoginButton 컴포넌트 임포트
 
 const SocialLoginPage: React.FC = () => {
   const navigate = useNavigate();

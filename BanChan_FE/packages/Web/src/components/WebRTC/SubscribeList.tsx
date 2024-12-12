@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SubscriberListProps } from "../../Type";
+import { SubscriberListProps } from "shared/../Type";
 
 const SubscriberList: React.FC<SubscriberListProps> = ({ subscribers }) => {
   const [currentPage, setCurrentPage] = useState(0);

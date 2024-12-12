@@ -1,5 +1,5 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
-import { ChatBoxProps } from "../../Type";
+import { ChatBoxProps } from "shared/../Type";
 
 const ChatBox: React.FC<ChatBoxProps> = ({ onSendMessage, messages }) => {
   const [inputValue, setInputValue] = useState<string>("");

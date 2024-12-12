@@ -4,7 +4,7 @@ import Header from "../Header";
 import { useState,useEffect } from "react";
 import { useCookies } from "react-cookie";
 import { useParams } from "react-router-dom";
-import { getVoteDetail } from "../../mobileapi/VoteAPI";
+import { getVoteDetail } from "shared/../mobileapi/VoteAPI";
 const ShowVote: React.FC = () => {
   const [cookies] = useCookies()
   const {id} = useParams()

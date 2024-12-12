@@ -1,12 +1,12 @@
-import LargeButton from "../Buttons/LargeButton";
+import LargeButton from "shared/Buttons/LargeButton";
 import Table from "../Table";
-import SmallButton from "../Buttons/SmallButton";
+import SmallButton from "shared/Buttons/SmallButton";
 import Nav from "../Nav";
 import NavItem from "../NavItem";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Meeting } from "../../Type";
+import { Meeting } from "shared/../Type";
 import { useCookies } from "react-cookie";
 
 const baseUrl = import.meta.env.VITE_BASE_API_URL;

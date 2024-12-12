@@ -2,7 +2,7 @@ import React from "react";
 import logo from "@assets/logo.png";
 import google from "@assets/google_logo.png";
 import { useNavigate } from "react-router-dom";
-import KakaoLoginButton from "../components/oauthlogin/KakaoLoginButton"; // Import the KakaoLoginButton component
+import KakaoLoginButton from "shared/components/oauthlogin/KakaoLoginButton"; // Import the KakaoLoginButton component
 
 const FirstPage: React.FC = () => {
   const navigate = useNavigate();

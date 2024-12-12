@@ -1,9 +1,9 @@
 import React, { useState , useEffect,useRef} from "react";
 import VoteForm from "./VoteForm";
 import { useCookies } from "react-cookie";
-import { getVoteDetail ,doVote,DeleteVote} from "../../api/VoteAPI";
+import { getVoteDetail ,doVote,DeleteVote} from "shared/../api/VoteAPI";
 import { Link,useParams,useNavigate } from "react-router-dom";
-import { VoteDetailType } from "../../Type";
+import { VoteDetailType } from "shared/../Type";
 
 const VoteDetail: React.FC = () => {
   const navigate = useNavigate();

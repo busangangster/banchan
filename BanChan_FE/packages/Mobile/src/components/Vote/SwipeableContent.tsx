@@ -1,9 +1,9 @@
 import React, { useState,useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
 import { useNavigate } from "react-router-dom";
-import { SwipeableContentProps } from "../../Types";
+import { SwipeableContentProps } from "shared/../Types";
 import { useParams } from "react-router-dom";
-import { doVote } from "../../mobileapi/VoteAPI";
+import { doVote } from "shared/../mobileapi/VoteAPI";
 import { useCookies } from "react-cookie";
 const SwipeableContent: React.FC<SwipeableContentProps> = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

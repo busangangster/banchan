@@ -4,8 +4,8 @@ import Nav from "../Nav";
 import NavItem from "../NavItem";
 import { useCookies } from "react-cookie";
 import TempTable from "../TempTable";
-import { getCommunityList } from "../../api/CommunityAPI";
-import { CommunityParamsType,CommunityListType,DataItem} from "../../Type";
+import { getCommunityList } from "shared/../api/CommunityAPI";
+import { CommunityParamsType,CommunityListType,DataItem} from "shared/../Type";
 const headers = ["id", "title", "writer", "createdAt", "views", "likes"];
 
 // axios 요청 함수

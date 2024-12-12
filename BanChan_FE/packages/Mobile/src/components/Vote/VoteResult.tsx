@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import Header from "../Header";
 import SwipeableResults from "./SwipeableResult";
-import { getVoteResult } from "../../mobileapi/VoteAPI";
+import { getVoteResult } from "shared/../mobileapi/VoteAPI";
 
 interface VoteResultData {
   voteId: number;

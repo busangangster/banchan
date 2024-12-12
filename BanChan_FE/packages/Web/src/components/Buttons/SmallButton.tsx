@@ -1,5 +1,5 @@
 import React from "react";
-import { SmallButtonProps } from "../../Type";
+import { SmallButtonProps } from "shared/../Type";
 
 const SmallButton: React.FC<SmallButtonProps> = ({
   title = "",

@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Table from "../Table";
 import Nav from "../Nav";
 import NavItem from "../NavItem";
-import SmallButton from "../Buttons/SmallButton";
+import SmallButton from "shared/Buttons/SmallButton";
 import axios from "axios";
 import { useCookies } from "react-cookie";
 

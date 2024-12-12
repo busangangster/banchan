@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "../../Header";
+import Header from "shared/../Header";
 import axios from "axios";
 import { useCookies } from "react-cookie";
 import { useNavigate } from "react-router-dom";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HeaderProps, SidebarItemProps } from "../Types";
 import { NavLink } from "react-router-dom";
-import useCustomNavigation from "../hooks/useCustomNavigation";
+import useCustomNavigation from "shared/hooks/useCustomNavigation";
 
 const SidebarItem: React.FC<SidebarItemProps> = ({
   icon,

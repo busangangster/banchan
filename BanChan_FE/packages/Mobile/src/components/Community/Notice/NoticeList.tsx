@@ -1,10 +1,10 @@
 import React,{useEffect,useState} from "react";
-import Header from "../../Header";
+import Header from "shared/../Header";
 import { useNavigate } from "react-router-dom";
-import { getCommunityList } from "../../../mobileapi/CommunityAPI";
+import { getCommunityList } from "shared/../../mobileapi/CommunityAPI";
 import { useCookies } from "react-cookie";
-import { CommunityListType,CommunityParamsType } from "../../../Types";
-import Pagination from "../../Pagination";
+import { CommunityListType,CommunityParamsType } from "shared/../../Types";
+import Pagination from "shared/../Pagination";
 
 const NoticeList: React.FC = () => {
   const navigate = useNavigate();

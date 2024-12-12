@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SmallButton from "../Buttons/SmallButton";
+import SmallButton from "shared/Buttons/SmallButton";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useCookies } from "react-cookie";

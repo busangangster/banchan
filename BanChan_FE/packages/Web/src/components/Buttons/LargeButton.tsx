@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { LargeButtonProps } from "../../Type";
+import { LargeButtonProps } from "shared/../Type";
 
 const LargeButton: React.FC<LargeButtonProps> = ({ title, to, onClick }) => {
   const navigate = useNavigate();

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Drawer from "../Vote/Drawer";
+import Drawer from "shared/Vote/Drawer";
 import { useNavigate } from "react-router-dom";
 import Header from "../Header";
-import { Items, Meeting } from "../../Types";
+import { Items, Meeting } from "shared/../Types";
 import CalendarDrawer from "./CalendarDrawer";
 import { useCookies } from "react-cookie";
 import axios from "axios";

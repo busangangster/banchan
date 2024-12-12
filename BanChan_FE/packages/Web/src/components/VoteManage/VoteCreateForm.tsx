@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { PollItem, VoteCreateFormProps } from "../../Type";
+import { PollItem, VoteCreateFormProps } from "shared/../Type";
 
 const VoteCreateForm: React.FC<VoteCreateFormProps> = ({
   id,

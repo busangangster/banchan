@@ -1,9 +1,9 @@
 import React,{ useEffect,useState }  from "react";
 import VoteEndForm from "./VoteEndForm";
-import { getVoteResult,DeleteVote } from "../../api/VoteAPI";
+import { getVoteResult,DeleteVote } from "shared/../api/VoteAPI";
 import { useCookies } from "react-cookie";
 import { useParams,useNavigate } from "react-router-dom";
-import { VoteResultType } from "../../Type";
+import { VoteResultType } from "shared/../Type";
 const VoteEnd: React.FC = () => {
   const [cookies] = useCookies();
   const { id } = useParams();

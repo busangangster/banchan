@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { MultiSelectDropdownProps } from "../Type";
 import { useNavigate } from "react-router-dom";
-import { sendSMS } from "../api/SenaMassageAPI";
+import { sendSMS } from "shared/api/SenaMassageAPI";
 
 const MultiSelectDropdown: React.FC<MultiSelectDropdownProps> = ({
   options,

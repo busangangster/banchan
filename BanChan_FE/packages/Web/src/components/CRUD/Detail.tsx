@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate} from "react-router-dom";
-import SmallButton from "../Buttons/SmallButton";
-import { Post,UpdateProps } from "../../Type";
+import SmallButton from "shared/Buttons/SmallButton";
+import { Post,UpdateProps } from "shared/../Type";
 import { useCookies } from "react-cookie";
-import { simpleDelete } from "../../api/simpleAPI";
+import { simpleDelete } from "shared/../api/simpleAPI";
 const baseUrl = import.meta.env.VITE_API_URL;
 
 type Params = {

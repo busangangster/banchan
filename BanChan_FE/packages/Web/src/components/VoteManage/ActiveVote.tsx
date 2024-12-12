@@ -1,10 +1,10 @@
 import Nav from "../Nav";
 import NavItem from "../NavItem";
 import TempTable from "../TempTable";
-import LargeButton from "../Buttons/LargeButton";
-import {DataItem} from "../../Type";
+import LargeButton from "shared/Buttons/LargeButton";
+import {DataItem} from "shared/../Type";
 import { useEffect,useState } from "react";
-import { getVote } from "../../api/VoteAPI";
+import { getVote } from "shared/../api/VoteAPI";
 import { useCookies } from "react-cookie";
 
 const header: string[] = ["id", "title", "voteDate", "voteRate"];

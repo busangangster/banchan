@@ -2,7 +2,7 @@ import React,{useEffect,useState} from "react";
 import NewDrawer from "./newDrawer";
 import { useNavigate } from "react-router-dom";
 import Header from "../Header";
-import { getVote } from "../../mobileapi/VoteAPI";
+import { getVote } from "shared/../mobileapi/VoteAPI";
 import { useCookies } from "react-cookie";
 const VoteList: React.FC = () => {
   const navigate = useNavigate();

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { DrawerProps } from "../../Types";
+import { DrawerProps } from "shared/../Types";
 
 const Drawer: React.FC<DrawerProps> = ({ title, items }) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 // import React, { useState } from "react";
 // import ControlPanels from "./ControlPanels";
-// import { IconName } from "../../Types";
+// import { IconName } from "shared/../Types";
 // const Test: React.FC = () => {
 //   const [activeIcons, setActiveIcons] = useState<Record<IconName, boolean>>({
 //     record_voice_over: false,

@@ -1,12 +1,12 @@
 import React,{ useEffect, useState } from "react";
 import Pagination from "../Pagination";
-import LargeButton from "../Buttons/LargeButton";
+import LargeButton from "shared/Buttons/LargeButton";
 import NavItem from "../NavItem";
 import Nav from "../Nav";
 import { useCookies } from "react-cookie";
 import TempTable from "../TempTable";
-import { getCommunityList } from "../../api/CommunityAPI";
-import { CommunityParamsType,CommunityListType,DataItem} from "../../Type";
+import { getCommunityList } from "shared/../api/CommunityAPI";
+import { CommunityParamsType,CommunityListType,DataItem} from "shared/../Type";
 
 const headers = ["id", "title", "writer", "createdAt",'views'];
 

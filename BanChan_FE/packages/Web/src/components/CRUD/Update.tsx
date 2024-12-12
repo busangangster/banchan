@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import SmallButton from "../Buttons/SmallButton";
-import { UpdateProps } from "../../Type";
+import SmallButton from "shared/Buttons/SmallButton";
+import { UpdateProps } from "shared/../Type";
 import { useLocation,useParams,useNavigate } from "react-router-dom";
-import { updateArticle } from "../../api/CommunityAPI";
+import { updateArticle } from "shared/../api/CommunityAPI";
 import { useCookies } from "react-cookie";
 type Params = {
   boardType: string;

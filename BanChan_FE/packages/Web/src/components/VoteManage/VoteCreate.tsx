@@ -1,8 +1,8 @@
 // VoteCreatePage.tsx
 import React, { useState, useRef, useEffect } from "react";
 import VoteCreateForm from "./VoteCreateForm";
-import { Form,VoteCreateType } from "../../Type";
-import { CreateVote } from "../../api/VoteAPI";
+import { Form,VoteCreateType } from "shared/../Type";
+import { CreateVote } from "shared/../api/VoteAPI";
 import { useCookies } from "react-cookie";
 import { useNavigate } from "react-router-dom";
 const VoteCreatePage: React.FC = () => {

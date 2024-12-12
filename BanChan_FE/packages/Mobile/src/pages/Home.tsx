@@ -8,7 +8,7 @@ import { useCookies } from "react-cookie";
 import axios from "axios";
 import { NavLink, useNavigate } from "react-router-dom";
 import { CommunityParamsType } from "../Types";
-import { getCommunityList } from "../mobileapi/CommunityAPI";
+import { getCommunityList } from "shared/mobileapi/CommunityAPI";
 const items = [
   { icon: "person", text: "마이페이지", to: "/m/mypage" },
   { icon: "forum", text: "커뮤니티", to: "/m/community" },

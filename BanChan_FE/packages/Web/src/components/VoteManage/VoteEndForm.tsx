@@ -1,5 +1,5 @@
 import React from "react";
-import { VoteFormProps } from "../../Type";
+import { VoteFormProps } from "shared/../Type";
 
 const VoteEndForm: React.FC<VoteFormProps> = ({ vote }) => {
   const totalVotes = vote.optionResults.reduce(

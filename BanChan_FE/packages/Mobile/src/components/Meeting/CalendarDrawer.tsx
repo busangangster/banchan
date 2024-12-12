@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CalendarApp from "./CalendarApp";
-import { CalendarDrawerProps } from "../../Types";
+import { CalendarDrawerProps } from "shared/../Types";
 
 const CalendarDrawer: React.FC<CalendarDrawerProps> = ({ title }) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { handleKakaoLogin } from '../api/auth';
+import { handleKakaoLogin } from "shared/api/auth";
 
 const KakaoRedirect: React.FC = () => {
   const location = useLocation();

@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from "react";
-import Header from "../../Header";
+import Header from "shared/../Header";
 import { useParams} from "react-router-dom";
 import { useCookies } from "react-cookie";
-import { getCommunityDetails } from "../../../mobileapi/CommunityAPI";
+import { getCommunityDetails } from "shared/../../mobileapi/CommunityAPI";
 import axios from "axios";
 const API_URL = import.meta.env.VITE_API_URL;
 

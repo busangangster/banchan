@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { ThumbnailPlayerProps } from "../../Types";
+import { ThumbnailPlayerProps } from "shared/../Types";
 
 const ThumbnailPlayer: React.FC<ThumbnailPlayerProps> = ({
   stream,

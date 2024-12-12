@@ -2,9 +2,9 @@ import Nav from "../Nav";
 import NavItem from "../NavItem";
 import Sorting from "../Sorting";
 import TempTable from "../TempTable";
-import { DataItem} from "../../Type";
+import { DataItem} from "shared/../Type";
 import { useEffect,useState } from "react";
-import { getVote } from "../../api/VoteAPI";
+import { getVote } from "shared/../api/VoteAPI";
 import { useCookies } from "react-cookie";
 
 const header: string[] = ["id", "title", "voteDate", "voteRate"];

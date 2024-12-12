@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import GaugeChart from "react-gauge-chart";
 import { useNavigate, useParams } from "react-router-dom";
 import Header from "../Header";
-import { getVoteDetail } from "../../mobileapi/VoteAPI";
+import { getVoteDetail } from "shared/../mobileapi/VoteAPI";
 import { useCookies } from "react-cookie";
 const FinishedVote: React.FC = () => {
   const navigate = useNavigate();

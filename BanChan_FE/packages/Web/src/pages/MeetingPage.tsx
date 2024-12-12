@@ -9,14 +9,14 @@ import {
 } from "openvidu-browser";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
-import ControlPanels from "../components/WebRTC/ControlPanels";
-import ThumbnailPlayer from "../components/WebRTC/ThumbnailPlayer";
-import SubscriberList from "../components/WebRTC/SubscribeList";
+import ControlPanels from "shared/components/WebRTC/ControlPanels";
+import ThumbnailPlayer from "shared/components/WebRTC/ThumbnailPlayer";
+import SubscriberList from "shared/components/WebRTC/SubscribeList";
 import { IconName, LocationState } from "../Type";
 import { useCookies } from "react-cookie";
-import ChatBox from "../components/WebRTC/ChatBox";
+import ChatBox from "shared/components/WebRTC/ChatBox";
 import Swal from "sweetalert2";
-import { sendSMS } from "../api/SenaMassageAPI";
+import { sendSMS } from "shared/api/SenaMassageAPI";
 
 const baseUrl = import.meta.env.VITE_BASE_API_URL;
 

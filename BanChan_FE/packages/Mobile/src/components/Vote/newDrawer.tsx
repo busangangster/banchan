@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { newDrawerProps } from "../../Types";
+import { newDrawerProps } from "shared/../Types";
 import axios from "axios";
 import { useCookies } from "react-cookie";
 import CryptoJS from 'crypto-js';

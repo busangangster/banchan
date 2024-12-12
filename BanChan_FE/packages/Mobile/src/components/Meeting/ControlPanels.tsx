@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ControlPanelsProps } from "../../Types";
+import { ControlPanelsProps } from "shared/../Types";
 
 const ControlPanels: React.FC<ControlPanelsProps> = ({
   activeIcons,

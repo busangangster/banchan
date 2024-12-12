@@ -9,7 +9,7 @@ import {
 } from "openvidu-browser";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { IconName, LocationState } from "../../Types";
+import { IconName, LocationState } from "shared/../Types";
 import { useCookies } from "react-cookie";
 import ControlPanels from "./ControlPanels";
 import SubscriberList from "./SubscribeList";
